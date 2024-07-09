@@ -1,0 +1,21 @@
+#container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+#container>div{
+    border: 1px solid rebeccapurple;
+    padding: 10px 17px;
+    background-color: azure;
+}
+#sort{
+    margin: 12px 13px;
+    padding: 3px 2px;
+    border-radius: 5px;
+
+    background-color: #ffc6c6;
+    font-weight: bold;
+}
+#sort:hover{
+    background-color: #e5ffe5;
+}
